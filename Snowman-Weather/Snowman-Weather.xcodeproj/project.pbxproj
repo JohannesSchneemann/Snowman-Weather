@@ -15,6 +15,7 @@
 		D19D8C3223CBB02B00E34F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D8C3023CBB02B00E34F6B /* LaunchScreen.storyboard */; };
 		D19D8C3D23CBB02B00E34F6B /* Snowman_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D8C3C23CBB02B00E34F6B /* Snowman_WeatherTests.swift */; };
 		D19D8C4823CBB02B00E34F6B /* Snowman_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D8C4723CBB02B00E34F6B /* Snowman_WeatherUITests.swift */; };
+		D19D8C5623CD0DCD00E34F6B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D8C5523CD0DCD00E34F6B /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D19D8C4323CBB02B00E34F6B /* Snowman-WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowman-WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19D8C4723CBB02B00E34F6B /* Snowman_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman_WeatherUITests.swift; sourceTree = "<group>"; };
 		D19D8C4923CBB02B00E34F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19D8C5523CD0DCD00E34F6B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D19D8C2E23CBB02B00E34F6B /* Assets.xcassets */,
 				D19D8C3023CBB02B00E34F6B /* LaunchScreen.storyboard */,
 				D19D8C3323CBB02B00E34F6B /* Info.plist */,
+				D19D8C5523CD0DCD00E34F6B /* Weather.swift */,
 			);
 			path = "Snowman-Weather";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19D8C5623CD0DCD00E34F6B /* Weather.swift in Sources */,
 				D19D8C2A23CBB02A00E34F6B /* ViewController.swift in Sources */,
 				D19D8C2623CBB02A00E34F6B /* AppDelegate.swift in Sources */,
 				D19D8C2823CBB02A00E34F6B /* SceneDelegate.swift in Sources */,

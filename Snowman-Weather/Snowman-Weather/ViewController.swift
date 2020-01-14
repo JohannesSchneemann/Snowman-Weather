@@ -12,9 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Weather.forecast(withLocation: "30.266666,-97.733330") { (results:[Weather]) in
+            for result in results {
+                print("\(result)\n\n")
+            }
+        }
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
 
 }
-
