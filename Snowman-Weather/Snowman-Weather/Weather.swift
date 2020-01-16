@@ -11,7 +11,7 @@ import Foundation
 struct Weather {
     let summary:String
     let icon:String
-    let temperature:Double
+    let temp:Double
     
     enum SerializationError:Error {
         case missing(String)
@@ -24,12 +24,11 @@ struct Weather {
         
         guard let icon = json["icon"] as? String else {throw SerializationError.missing("icon is missing")}
         
-        guard let temperature = json["temperatureMax"] as? Double else {throw SerializationError.missing("temp is missing")}
+        guard let temp = json["maxTemp"] as? Double else {throw SerializationError.missing("temp is missing")}
         
         self.summary = summary
         self.icon = icon
-        self.temperature = temperature
-        
+        self.temp = temp
     }
     
     // insert your Dark Sky API key
@@ -57,28 +56,13 @@ struct Weather {
                                 }
                             }
                         }
-                    
                     }
                 }catch {
                     print(error.localizedDescription)
                 }
-                
                 completion(forecastArray)
-                
             }
         }
-        
         task.resume()
-        
-        
-        
-        
-        
-        
-        
-        
-    
     }
-    
-
 }
