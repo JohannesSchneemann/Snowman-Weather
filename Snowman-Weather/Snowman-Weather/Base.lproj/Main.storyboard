@@ -9,7 +9,7 @@
         <!--Snowman-Weather-->
         <scene sceneID="IoS-Uc-xnP">
             <objects>
-                <tableViewController id="Ava-2e-bmN" customClass="WeatherTableViewController" customModule="Snowman_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Ava-2e-bmN" customClass="SnowmanTableViewController" customModule="Snowman_Weather" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5uz-Xo-Sur">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,6 +54,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Snowman-Weather" id="3H6-54-ZdX"/>
+                    <connections>
+                        <outlet property="searchBAR" destination="eh7-uT-Fbw" id="jo9-fQ-DcZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ss-Uv-F4h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

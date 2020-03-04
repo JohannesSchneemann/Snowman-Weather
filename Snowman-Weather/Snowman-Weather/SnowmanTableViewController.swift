@@ -1,27 +1,29 @@
 //
-//  WeatherTableViewController.swift
+//  SnowmanTableViewController.swift
 //  Snowman-Weather
 //
-//  Created by Johannes Schneemann on 1/16/20.
+//  Created by Johannes Schneemann on 3/3/20.
 //  Copyright © 2020 Johannes Schneemann. All rights reserved.
 //
 
 import UIKit
 
-class WeatherTableViewController: UITableViewController {
+class SnowmanTableViewController: UITableViewController, UISearchBarDelegate {
 
+    @IBOutlet weak var searchBAR: UISearchBar!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        searchBar.delegate = self
     }
 
-    // MARK: - Table view data source
 
+    
+    func searchBarSearchButtonClicked( _searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+    }
+    
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
