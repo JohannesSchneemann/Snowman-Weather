@@ -4,7 +4,8 @@
 //
 //  Created by Johannes Schneemann on 1/12/20.
 //  Copyright © 2020 Johannes Schneemann. All rights reserved.
-//
+//  6eaab1eb8758ad49676906c00a0665e8
+
 
 import Foundation
 import CoreLocation
@@ -63,9 +64,25 @@ struct Weather {
                 }catch {
                     print(error.localizedDescription)
                 }
+                
                 completion(forecastArray)
+                
             }
+            
+            
         }
+        
         task.resume()
+        
+        
+        
+        
+        
+        
+        
+        
+    
     }
+    
+
 }

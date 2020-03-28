@@ -12,10 +12,8 @@
 		D19D8C2D23CBB02A00E34F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D8C2B23CBB02A00E34F6B /* Main.storyboard */; };
 		D19D8C2F23CBB02B00E34F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19D8C2E23CBB02B00E34F6B /* Assets.xcassets */; };
 		D19D8C3223CBB02B00E34F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D8C3023CBB02B00E34F6B /* LaunchScreen.storyboard */; };
-		D19D8C3D23CBB02B00E34F6B /* Snowman_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D8C3C23CBB02B00E34F6B /* Snowman_WeatherTests.swift */; };
-		D19D8C4823CBB02B00E34F6B /* Snowman_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D8C4723CBB02B00E34F6B /* Snowman_WeatherUITests.swift */; };
 		D19D8C5623CD0DCD00E34F6B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D8C5523CD0DCD00E34F6B /* Weather.swift */; };
-		D1C8DF79240F4FF900D93603 /* SnowmanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8DF78240F4FF900D93603 /* SnowmanTableViewController.swift */; };
+		D1C8DF79240F4FF900D93603 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8DF78240F4FF900D93603 /* WeatherTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +42,9 @@
 		D19D8C3123CBB02B00E34F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19D8C3323CBB02B00E34F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19D8C3823CBB02B00E34F6B /* Snowman-WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowman-WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19D8C3C23CBB02B00E34F6B /* Snowman_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman_WeatherTests.swift; sourceTree = "<group>"; };
-		D19D8C3E23CBB02B00E34F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19D8C4323CBB02B00E34F6B /* Snowman-WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowman-WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19D8C4723CBB02B00E34F6B /* Snowman_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman_WeatherUITests.swift; sourceTree = "<group>"; };
-		D19D8C4923CBB02B00E34F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19D8C5523CD0DCD00E34F6B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		D1C8DF78240F4FF900D93603 /* SnowmanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowmanTableViewController.swift; sourceTree = "<group>"; };
+		D1C8DF78240F4FF900D93603 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				D19D8C2423CBB02A00E34F6B /* Snowman-Weather */,
-				D19D8C3B23CBB02B00E34F6B /* Snowman-WeatherTests */,
-				D19D8C4623CBB02B00E34F6B /* Snowman-WeatherUITests */,
 				D19D8C2323CBB02A00E34F6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,27 +100,9 @@
 				D19D8C3023CBB02B00E34F6B /* LaunchScreen.storyboard */,
 				D19D8C3323CBB02B00E34F6B /* Info.plist */,
 				D19D8C5523CD0DCD00E34F6B /* Weather.swift */,
-				D1C8DF78240F4FF900D93603 /* SnowmanTableViewController.swift */,
+				D1C8DF78240F4FF900D93603 /* WeatherTableViewController.swift */,
 			);
 			path = "Snowman-Weather";
-			sourceTree = "<group>";
-		};
-		D19D8C3B23CBB02B00E34F6B /* Snowman-WeatherTests */ = {
-			isa = PBXGroup;
-			children = (
-				D19D8C3C23CBB02B00E34F6B /* Snowman_WeatherTests.swift */,
-				D19D8C3E23CBB02B00E34F6B /* Info.plist */,
-			);
-			path = "Snowman-WeatherTests";
-			sourceTree = "<group>";
-		};
-		D19D8C4623CBB02B00E34F6B /* Snowman-WeatherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D19D8C4723CBB02B00E34F6B /* Snowman_WeatherUITests.swift */,
-				D19D8C4923CBB02B00E34F6B /* Info.plist */,
-			);
-			path = "Snowman-WeatherUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C8DF79240F4FF900D93603 /* SnowmanTableViewController.swift in Sources */,
+				D1C8DF79240F4FF900D93603 /* WeatherTableViewController.swift in Sources */,
 				D19D8C5623CD0DCD00E34F6B /* Weather.swift in Sources */,
 				D19D8C2623CBB02A00E34F6B /* AppDelegate.swift in Sources */,
 				D19D8C2823CBB02A00E34F6B /* SceneDelegate.swift in Sources */,
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19D8C3D23CBB02B00E34F6B /* Snowman_WeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19D8C4823CBB02B00E34F6B /* Snowman_WeatherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

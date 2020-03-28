@@ -1,5 +1,5 @@
 //
-//  SnowmanTableViewController.swift
+//  WeatherTableViewController.swift
 //  Snowman-Weather
 //
 //  Created by Johannes Schneemann on 3/3/20.
